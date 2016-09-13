@@ -1,3 +1,3 @@
 change from pub
 
-change in private
+resolved change
