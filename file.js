@@ -17,6 +17,7 @@ const App = () => {
   const data = path({
     type: "OKAY",
     features: counties.features,
+    something: 'cool prop in private file',
   })
    return (
     <svg width={1000} height={500}>
