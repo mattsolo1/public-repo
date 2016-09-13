@@ -8,6 +8,7 @@ import { feature } from 'topojson'
 import topo from '../build/topo-counties.json'
 
 const projection = geoAlbersUsa()
+const something = 'cool variable in public file'
 
 // convert topojson back to geojson
 const counties = feature(topo, topo.objects.counties)
