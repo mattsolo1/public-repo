@@ -15,7 +15,7 @@ const counties = feature(topo, topo.objects.counties)
 const path = geoPath().projection(projection)
 const App = () => {
   const data = path({
-    type: "FeatureCollection",
+    type: "OKAY",
     features: counties.features,
   })
    return (
