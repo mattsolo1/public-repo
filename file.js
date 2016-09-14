@@ -17,7 +17,9 @@ const path = geoPath().projection(projection)
 const App = () => {
   const data = path({
     type: "OKAY",
+    special: 'only in the private',
     features: counties.features,
+    something: 'cool prop in private file',
   })
    return (
     <svg width={1000} height={500}>
